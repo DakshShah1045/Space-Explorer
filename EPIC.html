@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Imagery Viewer</title>
+    <link rel="stylesheet" type="text/css" href="Styles/EPIC.css">
+</head>
+<body>
+    <header>
+        <h1>Earth Imagery Viewer</h1>
+        <p>Explore stunning Earth images captured by NASA's EPIC camera</p>
+    </header>
+
+    <div id="controls">
+        <input type="date" id="datePicker" />
+        <select id="imageType">
+            <option value="natural">Natural Color</option>
+            <option value="enhanced">Enhanced Color</option>
+        </select>
+        <button id="fetchImages">Fetch Images</button>
+    </div>
+
+    <div id="gallery">
+        <!-- Images will be dynamically added here -->
+    </div>
+
+        <footer>
+        <p>Space Explorer. By Byte Tech Labs (Powered by NASA's EPIC API) Developed By : Daksh Shah</p>
+    </footer>
+
+    <script src="Scripts/EPIC.js">
+    </script>
+</body>
+</html>

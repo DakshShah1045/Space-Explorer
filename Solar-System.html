@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Explorer</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Solar-System.css">
+</head>
+<body>
+    <header>
+        <h1>Solar System Explorer</h1>
+        <p>Learn about celestial objects in our Solar System</p>
+    </header>
+
+    <div id="controls">
+        <select id="celestialBody">
+            <option value="">Select a Celestial Body</option>
+            <option value="sun">Sun</option>
+            <option value="mercury">Mercury</option>
+            <option value="venus">Venus</option>
+            <option value="earth">Earth</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+            <option value="uranus">Uranus</option>
+            <option value="neptune">Neptune</option>
+            <option value="pluto">Pluto</option>
+        </select>
+
+        <button id="fetchData">Fetch Data</button>
+    </div>
+
+    <div id="info">
+        <!-- Information about the celestial body will be dynamically added here -->
+    </div>
+
+    <script src="Scripts/Solar-System.js">
+    </script>
+</body>
+</html>

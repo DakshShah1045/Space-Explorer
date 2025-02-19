@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover Photos</title>
+    <link rel="stylesheet" type="text/css" href="Styles/MRPS.css">
+</head>
+<body>
+    <header>
+        <h1>Mars Rover Photos</h1>
+        <p>Browse stunning photos captured by NASA's Mars Rovers</p>
+    </header>
+
+    <div id="controls">
+        <select id="rover">
+            <option value="Curiosity">Curiosity</option>
+            
+        </select>
+
+        <select id="camera">
+            
+            <option value="FHAZ">Front Hazard Avoidance Camera</option>
+            <option value="RHAZ">Rear Hazard Avoidance Camera</option>
+            <option value="NAVCAM">Navigation Camera</option>
+            <option value="PANCAM">Panoramic Camera</option>
+        </select>
+
+        <input type="number" id="sol" placeholder="Martian Sol (e.g., 1000)" min="0">
+
+        <button id="fetchPhotos">Fetch Photos</button>
+    </div>
+
+    <div id="photos">
+        <!-- Photos will be dynamically added here -->
+    </div>
+
+    <footer>
+        <p>Space Explorer. By Byte Tech Labs (Powered by Mars Rover Photos API) Developed By : Daksh Shah</p>
+    </footer>
+
+    <script src="Scripts/MRPS.js">
+    </script>
+</body>
+</html>

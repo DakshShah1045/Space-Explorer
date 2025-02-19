@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Photos</title>
+    <link rel="stylesheet" type="text/css" href="Styles/earth.css">
+</head>
+<body>
+    <header>
+        <h1>Earth Photos</h1>
+        <p>Explore satellite imagery of cities from around the world</p>
+    </header>
+
+    <div id="controls">
+        <select id="city">
+            <option value="40.7128,-74.0060">New York, USA</option>
+            <option value="34.0522,-118.2437">Los Angeles, USA</option>
+            <option value="51.5074,-0.1278">London, UK</option>
+            <option value="48.8566,2.3522">Paris, France</option>
+            <option value="35.6895,139.6917">Tokyo, Japan</option>
+            <option value="-33.8688,151.2093">Sydney, Australia</option>
+            <option value="55.7558,37.6173">Moscow, Russia</option>
+            <option value="28.6139,77.2090">Delhi, India</option>
+            <option value="-22.9068,-43.1729">Rio de Janeiro, Brazil</option>
+            <option value="37.7749,-122.4194">San Francisco, USA</option>
+        </select>
+
+        <button id="fetchPhoto">Fetch Photo</button>
+    </div>
+
+    <div id="photo">
+        <!-- Photo will be dynamically added here -->
+    </div>
+
+    <footer>
+        <p>Space Explorer. By Byte Tech Labs (Powered by NASA's EARTH API) Developed By : Daksh Shah</p>
+    </footer>
+
+    <script src="Scripts/earth.js">
+    </script>
+</body>
+</html>
