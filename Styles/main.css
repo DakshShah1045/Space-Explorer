@@ -25,6 +25,7 @@
 
         header h1 {
             font-size: 2.5rem;
+            color: #ffffff;
         }
 
         header p {
@@ -105,7 +106,8 @@
         .carousel-card h2 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
-
+            color: #ffffff;
+            font-weight:bold;
         }
 
         .carousel-card p {
